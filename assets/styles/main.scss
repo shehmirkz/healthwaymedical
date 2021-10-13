@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: #015667;
+    padding: 0;
+    margin: 0;
+    li {
+        text-align: center;
+        border-right: 1px solid white;
+    }
+    a {
+        color: #fff;
+    }
+}
+
+.main-nav {
+    color: #015a6c;
+    padding: 5px 80px 5px 20px;
+    .logo-width {
+        width: 80%;
+        padding-left: 50px;
+    }
+    li {
+        position: relative;
+        &:before{
+            content: '';
+    height: 12px;
+    width: 2px;
+    background-color: #015667;
+    display: inline-block;
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+        }
+        &.no-border {
+            &:before{
+                display: none;
+            }
+        }
+    }
+    a {
+        color: #006666;
+    }
+    .btn {
+        color: #fff;
+    }
+}
+
+.middle-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h6 {
+            color: #006666;
+            font-size: 12px;
+            letter-spacing: 3px;
+            padding-bottom: 20px;
+        }
+        h2 {
+            font-family: Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+}
+
+.form-section {
+    padding: 25px;
+    position: absolute;
+    bottom: 50px;
+    .form-control {
+        width: 458px;
+    }
+    .btn {
+        width: 122px;
+    }
+}
+
+.third-section {
+    background: url(../images/doctor.png) no-repeat;
+    width: 100%;
+    position: relative;
+    .doctor-right {
+        width: 900px;
+        height: 600px;
+    }
+    .doctor-detail {
+        background-image: url(../images/doctor2.jpg);
+    
+        height: 600px;
+        padding: 40px;
+    }
+    .spacing {
+        letter-spacing: 2px;
+        opacity: 0.5;
+        font-weight: lighter;
+        padding: 0 30px 30px 30px;
+    }
+    .second-title {
+        font-weight: lighter;
+        padding: 0 30px 30px 30px;
+    }
+    .third-title {
+        color: #fff;
+        font-size: 12px;
+        padding: 0 60px 30px 30px;
+    }
+    button {
+        margin-left: 30px;
+    }
+    .btn-outline-primary {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .center-list {
+        background-color: #2792a6;
+        display: block;
+        width: 325px;
+        padding: 10px 0px 10px 25px;
+        position: absolute;
+        bottom: 172px;
+        left: 546px;
+    }
+    .icon-right-arrow {
+        position: absolute;
+        left: 273px;
+        bottom: 108px;
+        color: white;
+        opacity: 0.6;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        border-bottom: 1px solid #52a8b8;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px 10px 15px;
+    }
+    .blue {
+        background-color: #595395;
+    }
+}
+
+.tabs-sec {
+    background-color: #fff;
+    padding: 25px 15px 4px 15px;
+    width: 75%;
+    position: absolute;
+    bottom: 18px;
+    right: 379px;
+    .heart-beat {
+        width: 250px;
+    }
+    img  {
+        width: 90px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
+
+
+.fourth-bar {
+    padding: 35px 120px 30px 120px;
+    .space {
+        letter-spacing: 4px;
+        color: #2792a6;
+    }
+    .purple {
+        color: #595395;
+        font-size: 50px;
+    }
+    .right-button {
+        justify-content: right;
+        float: right;
+        width: 150px;
+    }
+}
+
+.card-section {
+    .text-info {
+        padding: 20px 0;
+    }
+    .card-sub-title {
+        font-weight: bolder;
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .btn-primary {
+        background-color: #595395;
+        border-radius: 0;
+        margin-top: 25px;
+    }
+    .icon-right-arrow {
+        position: relative;
+        top: 4px;
+        right: -6px;
+    }
+}
+
+.footer-banner {
+    background-image: url(../images/footer-banner.png);
+    height: 500px;
+    width: auto;
+    .entire-content {
+        padding-left: 130px;
+    }
+    .our-doctor {
+        padding-top: 70px;
+        color: #2792a6;
+    }
+    .professional {
+        color: #595395;
+        font-size: 45px;
+        font-weight: lighter;
+    }
+    .find-doctor {
+        color: #666666;
+        font-size: 16px;
+    }
+    .btn-outline-success {
+        background-color: #2792a6;
+        color: white;
+        border-radius: 0;
+    }
+    h3 {
+        padding-bottom: 60px;
+    }
+    .form-control {
+        margin-right: 15px;
+        height: 40px;
+}
+    .btn-outline-success {
+        width: 230px;
+        margin-right: 35px;
+        height: 40px;
+    }
+    .btn-primary
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        border-radius: 0;
+        background-color: #595395;
+    }
+    .icon-right-arrow {
+        position: relative;
+        top: 4px;
+        left: 8px;
+    }
+}
+
+footer {
+    background-color: #2a2c37;
+    .footer-padding {
+        padding-top: 40px;
+    }
+    p {
+        font-size: 10px;
+        padding: 0 50px 0 50px;
+    }
+    hr {
+        background-color: #2792a6;
+        height: 2px;
+    }
+    .last-bar {
+        padding: 0 100px;
+    }
+    i {
+        font-size: 20px;
+    }
+    .footer-copyright {
+        background-color: #1d1f2a;
+        font-size: 10px;
+        opacity: 0.5;
+    }
+
+}
+
+
+.main-banner{
+    width: 100%;
+    display: inline-block;
+    background: url(../images/banner1.jpg) no-repeat center top;
+    .container{
+        position: relative;
+        min-height: 550px;
+    }
+    .find-form{
+        background-color: #fff;
+        padding: 25px;
+        position: absolute;
+        width: calc(100% - 25px);
+        bottom: 50px;
+        .btn{
+            width: 100%;
+            border-radius: 0;
+            background-color: #595395;
+        }
+        .icon-angle-right {
+            position: absolute;
+            position: relative;
+            top: 4px;
+            left: 15px;
+            font-size: 20px;
+        }
+    }
+}
